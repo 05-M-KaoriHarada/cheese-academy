@@ -1,5 +1,6 @@
 /* ここから下に記載していく */
 .main {
+   width: 100%;
    display: flex;
    justify-content: center;
    align-items: center; 
@@ -24,14 +25,16 @@
    margin-bottom: 60px;
 }
 
-.container1 {
+.slide-container {
+   width: 100%;
+}
+
+.slide-wrapper {
    display: flex;
-   justify-content: center;
-   margin-bottom: 60px;
-   width: 100％;
 }
 
 .container {
+   width: 100%;
    display: flex;
    justify-content:center;
    margin-bottom: 0px;
@@ -61,7 +64,6 @@
 
 .card1-content {
    margin: auto;
-   
 }
 
 .course-img {
